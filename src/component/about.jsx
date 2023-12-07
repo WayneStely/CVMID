@@ -1,4 +1,4 @@
-import stelly from "../../public/stellyprofil.jpeg";
+import stelly from "/src/stellyprofil.jpeg";
 const About = () => {
   return (
     <div>
