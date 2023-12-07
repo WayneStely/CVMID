@@ -1,3 +1,4 @@
+import stelly from "/src/stellyprofil.jpeg";
 const Header = () => {
     return (
         <div>
@@ -8,7 +9,7 @@ const Header = () => {
             <header id="header">
                 <div className="d-flex flex-column">
                 <div className="profile">
-                    <img src="../../public/stellyprofil.jpeg" alt className="img-fluid rounded-circle" />
+                    <img src={stelly} alt="profil"/>
                     <h1 className="text-light"><a href="index.html">Wayne Stely Lamansiang</a></h1>
                     <div className="social-links mt-3 text-center">
                     <a href="#" className="twitter"><i className="bi bi-instagram" /></a>
