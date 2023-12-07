@@ -1,3 +1,4 @@
+import stelly from "../../public/stellyprofil.jpeg";
 const About = () => {
   return (
     <div>
@@ -12,11 +13,7 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
-              <img
-                src="../../public/stellyprofil.jpeg"
-                className="img-fluid"
-                alt
-              />
+            <img src={stelly} alt="profil"/>
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>DATA SCIENTIST</h3>
